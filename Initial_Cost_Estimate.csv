@@ -1,0 +1,28 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total undefined months cost,Currency
+0,8554.980000000003,102659.76,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First undefined months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,202.152,2425.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (300 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,1157,13884.00,USD,,"S3 Standard storage (50000 GB per month), Data returned by S3 Select (10000 GB per month)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,38,456.00,USD,,"Data transfer out to origin (100 GB per month), Data transfer out to internet (200 GB per month), Data transfer out to origin (200 GB per month), Number of requests (HTTPS) ( per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1049.66,12595.92,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (1), Instance type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (100 GB), Total Size of Backup Processed for Export (GB) (100 per month), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.19)"
+My Estimate,US East (N. Virginia),,Amazon API Gateway,0,450,5400.00,USD,,"REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), HTTP API requests units (millions), Average size of each request (34 KB), Average message size (32 KB), Requests (100 per month), Requests (100 per month)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,603.5,7242.00,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (1), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,2438.5,29262.00,USD,,"Hosted Zones (2), Additional Records in Hosted Zones (1000000), Number of Elastic Network Interfaces (10), Basic Checks Within AWS (100)"
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,120.44999999999999,1445.40,USD,,"Number of Network Load Balancers (2), Average TLS connection duration (1000000 seconds), Processed bytes per NLB for TLS (10 GB per hour)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,28.11,337.32,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,811.5001,9738.00,USD,,"Number of Metrics (includes detailed and custom metrics) (1000), Expected Logs Data scanned (100 GB), Number of Custom/Cross-account events (100), Number of Dashboards (100), GetMetricData: Number of metrics requested (10000000), Number of other API requests (10000000), GetMetricWidgetImage: Number of metrics requested (1000000)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,202.152,2425.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (300 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,202.152,2425.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (300 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,202.152,2425.82,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.micro), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (300 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1049.66,12595.92,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (1), Instance type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (100 GB), Total Size of Backup Processed for Export (GB) (100 per month), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (2.19)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
